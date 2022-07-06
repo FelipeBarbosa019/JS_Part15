@@ -1,0 +1,159 @@
+/* --------------- Reset --------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* --------------- Body --------------- */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assets/background.jpg");
+     color:#FFFFFF;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#cotar{
+    cursor: default;
+    width:80px;
+    height: 10vh;
+    height:100%;
+    border-right:solid 1px;
+    float:left;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3em;
+    padding: 7px;
+    border-color: #ffffff;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #0e5a19 inset;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+#cotar:hover {
+    box-shadow: 0 0 40px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+input{
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+select{
+    width: 6.5%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#inputDate{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+#containerBtn{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: wait;
+}
+
+h1{
+    margin-top: 20px;
+    color:#FFFFFF;
+    font-family: 'Satisfy', cursive;
+}
+
+h2{
+    margin-top: 20px;
+    color:#FFFFFF;
+    font-family:'Times New Roman', Times, serif;
+}
+
+table {
+    margin-top: 20px;
+    width: 40%;
+    height: 20vh;
+    text-align: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+table td {
+    padding: 10px 10px 10px 10px;
+}
+
+#titleTable {
+    width: 150px;
+    color: #2ea9a9;
+}
+
+#tabletd {
+    /* height: 60px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#lastQuote {
+    color: #2ea9a9;
+    font-size: 20px;
+}
+
+#date {
+    color: #2ea9a9;
+    font-size: 20px;
+}
+
+#minMax {
+    color: #2ea9a9;
+    font-size: 20px;
+}
+
+#closure {
+    color: #2ea9a9;
+    font-size: 20px;
+}
+
+/* --------------- Footer --------------- */
+footer{
+    width: 100vw;
+    height: 6vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0vw;
+    margin-top: 2vw;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.socials a:hover i {
+    color:#4d4d4d;
+    transform: scale(2.5);
+    transition: 2s;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">   
+    <title>JS_Part15</title>
+</head>
+<body>
+    <h1>Cotação de moeda</h1>
+ 
+    <select id="list">
+        <option value="USD-BRL" selected>USD / BRL</option>
+        <option value="EUR-BRL">EUR / BRL</option>
+        <option value="BTC-BRL">BTC / BRL</option>
+    </select>
+
+    <div id="inputDate">
+        Início: <input type="date" id="dateIni"> 
+        Fim: <input type="date" id="dateEnd"> 
+    </div>
+
+    <div id="containerBtn">
+        <button id="cotar" >Cotar</button>
+    </div> 
+
+    <table border="1">
+        <tr>
+            <td>Processos</td>
+            <td id="titleTable"></td>
+        </tr>
+        <tr>
+            <td>Última cotação de moeda</td>
+            <td id="lastQuote"></td>
+        </tr>
+        <tr>
+            <td>Data e hora</td>
+            <td id="date"></td>
+        </tr>
+        <tr>
+            <td id="tabletd">Valores mínimos e máximos do fechamento do dia</td>
+            <td id="minMax"></td>
+        </tr>
+        <tr>
+            <td>Valor de fechamento</td>
+            <td id="closure"></td>
+        </tr>
+    </table>
+
+    <h2></h2>
+
+    <script src="index.js"></script>
+</body>
+
+<footer>
+    <div class="footer-content">
+            <ul class="socials">
+            <li><a href="https://github.com/FelipeBarbosa019?tab=repositories"><i class="fa fa-github-alt"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/felipe-barbosa-a997351bb/"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="mailto:f196750@dac.unicamp.br"><i class="fa fa-google"></i></a></li>
+            <li><a href="https://www.facebook.com/felipe.freitas.969/"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/FelpsB019"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+    </div>
+</footer>
+</html>
